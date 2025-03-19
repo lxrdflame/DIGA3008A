@@ -1,0 +1,47 @@
+.WelcomeText{
+    width: 25ch;
+    font-family: "Press Start 2P", system-ui;
+    margin-top: 250px;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 40px;
+    text-wrap: nowrap;
+    overflow: hidden;
+    margin-left: 220px;
+    color: White;
+    animation: WelcomeText 3s steps(25) infinite alternate-reverse;
+
+}
+
+@keyframes WelcomeText{
+    from{
+        width:0ch;
+    } to{width: 25ch;}
+}
+.Next {
+    font-family: "Press Start 2P", system-ui;
+    text-align: center;
+}
+
+.Next a{
+    color: white;
+}
+
+.Next a:hover{
+    color: black;
+}
+
+
+body{
+    size: 100px;
+    background-color: #D4B18F;
+    
+
+}
+
+
+
+
+

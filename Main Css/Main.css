@@ -1,0 +1,39 @@
+
+.NavList li{
+    list-style: none;
+    display: inline-block;
+}
+
+.Pages{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+
+}
+nav{
+    background-color:#56483F;
+    padding-right: 15px;
+    padding-right: 15px;
+    
+}
+
+.NavList li a{
+    font-family: "Press Start 2P", system-ui;
+    color:  #FFE6D1;
+    padding: 10px;
+}
+
+
+.CurrentPage{
+    font-size: 20px;
+    margin-top: -5px;
+    font-family: "Press Start 2P", system-ui;
+    color: grey;
+}
+
+.NameAndSurname{
+    font-size: 35px;
+    font-weight: 600;
+    color: white;
+}
