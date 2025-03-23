@@ -12,7 +12,7 @@
 
 }
 nav{
-    background-color:#56483F;
+    background-color: rgb(255, 0, 187) 50%;
     padding-right: 15px;
     padding-right: 15px;
     position:sticky;
@@ -20,13 +20,13 @@ nav{
     left: 0;
     width: 100%;
     transition: top 0.3s;
-    
-    
+    height: 80px; 
+    box-shadow: 0px 4px 10px rgb(255, 0, 234);
 }
 
 .NavList li a{
     font-family: "Press Start 2P", system-ui;
-    color:  #FFE6D1;
+    color:  #ffffff;
     padding: 10px;
     font-size: 10px;
 }
@@ -36,7 +36,8 @@ nav{
     font-size: 15px;
     margin-top: -5px;
     font-family: "Press Start 2P", system-ui;
-    color: grey;
+    color: rgb(255, 0, 187);
+    
 }
 
 .NameAndSurname{
@@ -44,3 +45,18 @@ nav{
     font-weight: 600;
     color: white;
 }
+
+.Heading{
+    text-align: center;
+    font-family: "Press Start 2P", system-ui;
+    text-shadow: 0px 4px 10px #266DD3;
+    padding-top: 20px;
+
+}
+
+body{
+    background-color: black;
+    color: #ffffff;
+}
+
+
