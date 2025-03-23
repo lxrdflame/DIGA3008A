@@ -30,16 +30,19 @@
 }
 
 .Next a:hover{
-    color: black;
+    color: #ea02ff;
+    font-size: 20px;
 }
 
 
 body{
     size: 100px;
-    background-color: #D4B18F;
+    background-color: #000000;
     
 
 }
+
+
 
 
 

@@ -32,7 +32,8 @@
 .Sections{
     align-items: center;
     justify-content: space-between;
-    width: 700;
+    width: 800px;
+    border: 1px solid #84b5ff;
     border-radius: 10px;
 }
 
