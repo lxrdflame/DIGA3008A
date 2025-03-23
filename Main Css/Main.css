@@ -49,13 +49,13 @@ nav{
 .Heading{
     text-align: center;
     font-family: "Press Start 2P", system-ui;
-    text-shadow: 0px 4px 10px #266DD3;
+    text-shadow: 0px 4px 10px #266DD3 ;
     padding-top: 20px;
 
 }
 
 body{
-    background-color: black;
+    background-color: rgb(0, 2, 28);
     color: #ffffff;
 }
 
