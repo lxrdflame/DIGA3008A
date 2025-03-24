@@ -24,6 +24,12 @@ nav{
     
 }
 
+h1{
+    font-family: "Press Start 2P", system-ui;
+    text-align: center;
+    padding: 20px;
+}
+
 .NavList li a{
     font-family: "Press Start 2P", system-ui;
     color:  #ffffff;

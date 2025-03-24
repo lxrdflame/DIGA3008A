@@ -1,0 +1,8 @@
+.Blogs div{
+    width: 500px;
+    display: inline-block;
+    justify-content: space-between;
+    border: 1px solid #4CC9F0;
+    border-radius: 10px;
+    padding: 20px;
+}
