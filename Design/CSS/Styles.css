@@ -1,46 +1,52 @@
 .Wireframesdiv:hover{
-    width: 650px;
-    height: 300px;
+    width: 500px;
+    height: 400px;
 }
 
 .Wireframesdiv:hover{
-    width: 650px;
-    height: 300px;
+    width: 700px;
+    height: 400px;
 }
 
 .Buttonsdiv:hover{
-    width: 650px;
-    height: 300px;
+    width: 700px;
+    height: 400px;
 }
 
 .VisualDesigndiv:hover{
-    width: 650px;
-    height: 300px;
+    width: 700px;
+    height: 400px;
 }
 
-.DesignList div {
-    width: 300px;
-    height: 300px;
+.Sectionsdiv div {
+    width: 400px;
+    height: 400px;
     overflow: hidden; 
     background-color: #001128 ;
     padding: 10px;
     border: 1px solid #84b5ff;
     transition: all 0.3s ease-in-out;
     border-radius: 10px;
+    display: inline-block;
 }
 
-.Sections{
+
+
+.Sectionsdiv{
     align-items: center;
     justify-content: space-between;
-    width: 800px;
+    width: Flex;
     border: 1px solid #84b5ff;
     border-radius: 10px;
+    display: flex;
+    padding: 10px;
+    gap: 10px;
+    justify-content: center;
+    
 }
 
 .DesignList li{
-    list-style: none;
     display: inline-block;
-    padding: 10px;
 
 }
 
