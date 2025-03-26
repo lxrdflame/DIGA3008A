@@ -1,20 +1,20 @@
-.Wireframesdiv:hover{
+.ColourSectiondiv:hover{
     width: 500px;
     height: 400px;
 }
 
 .Wireframesdiv:hover{
-    width: 700px;
+    width: 500px;
     height: 400px;
 }
 
 .Buttonsdiv:hover{
-    width: 700px;
+    width: 500px;
     height: 400px;
 }
 
 .VisualDesigndiv:hover{
-    width: 700px;
+    width: 500px;
     height: 400px;
 }
 
@@ -22,7 +22,7 @@
     width: 400px;
     height: 400px;
     overflow: hidden; 
-    background-color: #001128 ;
+    background-color: #ffffff1d ;
     padding: 10px;
     border: 1px solid #84b5ff;
     transition: all 0.3s ease-in-out;
@@ -31,16 +31,14 @@
 }
 
 
-
 .Sectionsdiv{
     align-items: center;
     justify-content: space-between;
-    width: Flex;
-    border: 1px solid #84b5ff;
     border-radius: 10px;
     display: flex;
+    flex-wrap: wrap;
     padding: 10px;
-    gap: 10px;
+    gap: 20px;
     justify-content: center;
     
 }
@@ -50,18 +48,18 @@
 
 }
 
-.DesignList div:hover {
+.Sectionsdiv div:hover {
     overflow: auto;
-    box-shadow: 0px 4px 10px rgb(0, 8, 255);
+    box-shadow: 0px 0px 30px rgb(0, 0, 234);
     
 }
 
 
-.DesignList div::-webkit-scrollbar{
+.Sectionsdiv div::-webkit-scrollbar{
     width: 8px;
 }
 
-.DesignList div::-webkit-scrollbar-thumb {
+.Sectionsdiv div::-webkit-scrollbar-thumb {
     background: rgb(171, 221, 254);
     border-radius: 5px;
 }
