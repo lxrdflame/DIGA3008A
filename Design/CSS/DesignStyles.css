@@ -1,33 +1,25 @@
-
-
+/* === Base Styles === */
 .Sectionsdiv div {
-    overflow: hidden; 
+    overflow: hidden;
     padding: 10px;
     border-radius: 10px;
     display: flex;
     justify-content: center;
     gap: 10px;
     width: 100%;
-    margin-top:  2rem;
     padding-top: 100px;
-
 }
 
-
-
-.Sectionsdiv{
-    align-items: center;
-    border-radius: 10px;
+.Sectionsdiv {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
+    border-radius: 10px;
     padding-left: 25%;
 }
 
-
-
-
-.Sectionsdiv div::-webkit-scrollbar{
+.Sectionsdiv div::-webkit-scrollbar {
     width: 8px;
 }
 
@@ -35,42 +27,85 @@
     background: rgb(171, 221, 254);
     border-radius: 5px;
 }
-.SideBar{
-    
-        width: 200px;
-        height: 100vh;
-        background-color: rgba(255, 255, 255, 0.079) ;
-        color: #fff;
-        padding-top: 20px;
-        position: fixed; /* sticks it to the side */
-        top: 80px;
-        left: 0;
-        box-shadow: 1px 5px 8px rgb(255, 0, 234);
-        justify-content: center;
-      
+
+.SideBar {
+    width: 200px;
+    height: 100vh;
+    background-color: rgba(255, 255, 255, 0.079);
+    color: #fff;
+    padding-top: 20px;
+    position: fixed;
+    top: 80px;
+    left: 0;
+    box-shadow: 1px 5px 8px rgb(255, 0, 234);
+    z-index: 1000;
 }
 
-.SideBar ul li{
+.SideBar ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.SideBar ul li {
     list-style: none;
-    justify-content: space-between;
     padding-bottom: 120px;
     font-family: "Press Start 2P", system-ui;
     font-size: 10px;
-    text-wrap: wrap;
+    text-align: center;
+    word-wrap: break-word;
 }
 
-.SideBar li a{
+.SideBar li a {
     color: #fff;
+    text-decoration: none;
 }
 
-.SideBar li a:hover{
+.SideBar li a:hover {
     color: rgb(255, 0, 251);
 }
 
-h3{
+h3 {
     text-align: center;
     font-family: "Press Start 2P", system-ui;
     font-size: 15px;
 }
 
+/* === Responsive Styles for Phones and Small Devices === */
+@media (max-width: 768px) {
+    .SideBar {
+        position: static;
+        width: 100%;
+        height: auto;
+        box-shadow: none;
+        top: 0;
+        left: 0;
+        padding: 10px 0;
+        background-color: rgba(255, 255, 255, 0.1);
+    }
 
+    .SideBar ul li {
+        padding-bottom: 20px;
+        font-size: 12px;
+    }
+
+    .Sectionsdiv {
+        padding-left: 0;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 1rem;
+    }
+
+    .Sectionsdiv div {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        padding-top: 60px;
+    }
+
+    h3 {
+        font-size: 12px;
+    }
+}
