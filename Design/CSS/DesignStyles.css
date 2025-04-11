@@ -1,16 +1,16 @@
-.Buttonsdiv img{
-    justify-content: space-between;
 
-}
 
 .Sectionsdiv div {
     overflow: hidden; 
-    background-color: #ffffff1d ;
     padding: 10px;
-    border: 1px solid #84b5ff;
     border-radius: 10px;
     display: flex;
+    justify-content: center;
+    gap: 10px;
     width: 100%;
+    margin-top:  2rem;
+    padding-top: 100px;
+
 }
 
 
@@ -20,17 +20,11 @@
     border-radius: 10px;
     display: flex;
     flex-wrap: wrap;
-    gap: 80px;
     justify-content: center;
-    border: 1px solid #000000;/* remove this*/
-    padding-left: 200px;
+    padding-left: 25%;
 }
 
-.Sectionsdiv div:hover {
-    overflow: auto;
-    box-shadow: 0px 0px 30px rgb(0, 0, 234);
-    
-}
+
 
 
 .Sectionsdiv div::-webkit-scrollbar{
@@ -43,7 +37,7 @@
 }
 .SideBar{
     
-        width: 180px;
+        width: 200px;
         height: 100vh;
         background-color: rgba(255, 255, 255, 0.079) ;
         color: #fff;
@@ -52,7 +46,7 @@
         top: 80px;
         left: 0;
         box-shadow: 1px 5px 8px rgb(255, 0, 234);
-
+        justify-content: center;
       
 }
 
@@ -60,8 +54,23 @@
     list-style: none;
     justify-content: space-between;
     padding-bottom: 120px;
+    font-family: "Press Start 2P", system-ui;
+    font-size: 10px;
+    text-wrap: wrap;
+}
+
+.SideBar li a{
+    color: #fff;
+}
+
+.SideBar li a:hover{
+    color: rgb(255, 0, 251);
 }
 
 h3{
     text-align: center;
+    font-family: "Press Start 2P", system-ui;
+    font-size: 15px;
 }
+
+
