@@ -77,12 +77,11 @@ h3 {
     font-size: 15px;
 }
 
-/* === Responsive Styles for Phones and Small Devices === */
 @media (max-width: 768px) {
     .SideBar {
-        position: static;
+        position: fixed;
         width: 100%;
-        height: auto;
+        height: 100vh;
         box-shadow: none;
         top: 0;
         left: 0;
