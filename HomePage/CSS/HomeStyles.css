@@ -52,3 +52,21 @@ img:hover{
     text-align: center;
     font-size: 30px;
 }
+
+@media (max-width: 900px) {
+
+    .logos img{
+        width: 10%;
+        
+    }
+    .logos{
+        justify-content: pace-between;
+        align-items: center;
+        width: 100%;
+
+
+    }
+
+    
+    
+}
