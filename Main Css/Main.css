@@ -1,36 +1,47 @@
-.NavList li {
-    list-style: none;
-    display: inline-block;
-    padding: 10px;
-}
 
-.Pages {
-    display: flex;
-    padding-right: 80px;
-    flex-wrap: wrap;
-    align-items: center;
+header{
+    position: sticky;
+    top: 0;
+    margin:-20px;
 }
-
 nav {
-    background-color: rgb(42, 0, 66);
+    background-color: rgba(42, 0, 66, 0.7);
     opacity: 100%;
     padding: 0 15px;
-    position: fixed;
+    backdrop-filter: blur(7px);
     top: 0;
     width: 100%;
     height: 80px;
-    box-shadow: 0px 0px 20px rgb(255, 0, 234);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    z-index: 999;
+    box-shadow: 0px 10px 20px rgb(255, 0, 234);
+
 }
+nav ul{
+    float: right;
+    list-style: none;
+    margin-right: 50px;
+    margin-top: 30px;
+}
+
+.NavList li{
+    display: inline-block;
+    margin-right: 20px;
+
+}
+
 
 .NavList li a {
     font-family: "Press Start 2P", system-ui;
     color: #ffffff;
     font-size: 10px;
     text-decoration: none;
+}
+
+#Logo{
+    width: 50px;
+    border-radius: 50%;
+    margin: 10px -40px;
+    box-shadow: 0px 0px 10px rgb(0, 255, 183);
+
 }
 
 .NavList li a:hover {
@@ -46,18 +57,17 @@ nav {
 body {
     background-color: rgb(0, 2, 28);
     color: #ffffff;
-    padding-top: 20px;
-    margin: 0;
+    height: 100vh;
 }
 
 .Logo {
     font-family: "Press Start 2P", system-ui;
-    padding-left: 20px;
+    float: left;
     font-size: small;
     color: white;
+    margin: 30px 50px;
 }
 
-/* === Header Styling === */
 h1 {
     font-family: "Press Start 2P", system-ui;
     text-align: center;
@@ -66,12 +76,37 @@ h1 {
     margin: 0 auto;
 }
 
+.nav-Button{
+    font-size: 30px;
+    color: rgb(255, 6, 201);
+    float: right;
+    margin-right: 40px;
+    line-height: 80px;
+    cursor: pointer;
+    display: none;
+}
+
+#check{
+    display: none;
+}
 /* === Responsive Styles === */
-@media (max-width: 768px) {
+@media (max-width: 800px) {
     nav {
-        flex-direction: column;
         height: auto;
-        padding: 10px 15px;
+        width: 100%;
+
+    }
+    .NavList ul{
+        position: fixed;
+        width: 100%;
+    }
+    .nav-Button{
+        display: block;
+    }
+
+    header{
+        position: sticky;
+        top: 0;
     }
 
     .Pages {
@@ -80,6 +115,7 @@ h1 {
         padding-top: 10px;
     }
 
+    
     .NavList li {
         text-wrap: wrap;
         padding: 8px 0;
