@@ -1,4 +1,3 @@
-/* === Base Styles === */
 .NavList li {
     list-style: none;
     display: inline-block;
@@ -82,7 +81,7 @@ h1 {
     }
 
     .NavList li {
-        display: block;
+        text-wrap: wrap;
         padding: 8px 0;
         text-align: center;
     }
