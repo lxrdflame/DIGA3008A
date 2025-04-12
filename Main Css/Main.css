@@ -89,24 +89,37 @@ h1 {
 #check{
     display: none;
 }
-/* === Responsive Styles === */
+
+
 @media (max-width: 800px) {
     nav {
         height: auto;
         width: 100%;
 
     }
-    .NavList ul{
+    nav ul{
         position: fixed;
         width: 100%;
+        text-align: center;
+        top: 45px;
+        background-color: rgba(245, 71, 187, 0.592);
+        height: 10vh;
+        margin-top: -100%;
+        transition: all 0.5s;
     }
+
     .nav-Button{
         display: block;
+    }
+
+    #check:checked ~ ul{
+        margin-top: 30px;
     }
 
     header{
         position: sticky;
         top: 0;
+        margin:-20px;
     }
 
     .Pages {
