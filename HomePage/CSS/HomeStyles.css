@@ -32,11 +32,11 @@
 @media (max-width: 900px) {
 
     .profile{
-        width: 300px;
+        width: 150px;
     }
 
     .intro{
-        font-size: medium;
+        font-size: 10px;
     }
     
 
