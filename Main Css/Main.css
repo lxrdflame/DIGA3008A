@@ -139,12 +139,13 @@ footer{
         width: 25%;
         height: 100vh;
         top: 60px;
-        background-color: rgba(245, 71, 187, 0.749);
+        background-color: rgba(34, 0, 26, 0.662);
         margin-right: 0;
         transition: all 1s;
         box-shadow: 0px 5px 15px rgba(245, 167, 254, 0.682);
         display: block;
         right: -120%;
+        z-index: 10;
     }
 
     .nav-Button{

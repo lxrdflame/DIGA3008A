@@ -45,6 +45,13 @@
 
     .intro{
         font-size: 10px;
+
+    }
+
+    .About-me{
+        background-color: rgba(0, 0, 0, 0.43);
+        filter: none;
+        z-index: 1;
     }
     
 
