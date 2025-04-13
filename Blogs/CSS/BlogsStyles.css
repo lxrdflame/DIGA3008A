@@ -15,6 +15,7 @@
     gap: 10px;
     flex-wrap: wrap;
     justify-content: center;
+    font-family: "Exo 2", sans-serif;
 }
 
 .Blogs div:hover {
