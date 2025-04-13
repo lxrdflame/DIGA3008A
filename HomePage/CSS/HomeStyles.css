@@ -9,8 +9,8 @@
     display: flex;
     height: auto;
     width: 100%;
-    border-left: 1px solid #4CC9F0;
-    border-right: 1px solid #4CC9F0;
+    border-left: 2px solid #4CC9F0;
+    border-right: 2px solid #4CC9F0;
     padding: 0 50px;
     background-color: rgba(0, 0, 0, 0.399);  
 
@@ -109,8 +109,8 @@ h2{
    }
 
    .container{
-    margin-right: 150px;
-    margin-left: 50px;
+    margin-right: 120px;
+    margin-left: 25px;
    }
 
     
