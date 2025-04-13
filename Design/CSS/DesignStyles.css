@@ -9,6 +9,10 @@
     padding-top: 100px;
 }
 
+.heading1{
+    padding-left: 15%;
+}
+
 .container{
     justify-content: space-between;
     padding-left: 400PX;
@@ -89,6 +93,10 @@ h3 {
         background-color: rgba(255, 255, 255, 0.079);
         box-shadow: 1px 5px 8px rgb(255, 0, 234);
 
+    }
+
+    .heading1{
+        padding-left: 25%;
     }
 
     .SideBar ul{
