@@ -11,6 +11,7 @@
 
 .container{
     justify-content: space-between;
+    
 }
 .Sectionsdiv {
     display: flex;
@@ -18,7 +19,6 @@
     justify-content: center;
     align-items: center;
     border-radius: 10px;
-    background: rgb(171, 221, 254);
 
 }
 
@@ -88,8 +88,13 @@ h3 {
         background-color: rgba(255, 255, 255, 0.1);
     }
 
+    .SideBar ul{
+        padding-top: 20%;
+        float: left;
+    }
+
     .SideBar ul li {
-        padding-bottom: 20px;
+        padding-bottom: 60%;
         font-size: 12px;
     }
 
@@ -109,6 +114,6 @@ h3 {
 
     .container{
         display: flex;
-        flex-wrap: wrap;
+        padding-left: 8%;
     }
 }
