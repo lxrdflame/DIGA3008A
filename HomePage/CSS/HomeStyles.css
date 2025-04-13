@@ -4,23 +4,11 @@
     border-radius: 50%;
 }
 
-
-
-.logos li {
-    list-style: none;
-    display: inline-block;
-    padding: 10px;
-
-}
-
-
-
 .About-me{
     align-items: center;
-    justify-content: space-between;
     border: 1px solid #84b5ff;
     display: flex;
-    height: 220px;
+    height: 280px;
     width: 100%;
     backdrop-filter: blur(3px);
     padding-left: 100px;
@@ -49,11 +37,11 @@
     }
 
     .About-me{
-        width: 100%;
+        width: 70.5%;
         height: 30%;
     }
     
-
+    
     
     
 }
