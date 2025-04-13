@@ -18,6 +18,11 @@
     padding-left: 400PX;
     
 }
+
+.images{
+    width: 500px;
+    height: 250px;
+}
 .Sectionsdiv {
     display: flex;
     flex-wrap: wrap;
@@ -93,6 +98,11 @@ h3 {
         background-color: rgba(255, 255, 255, 0.079);
         box-shadow: 1px 5px 8px rgb(255, 0, 234);
 
+    }
+
+    .images{
+        width: 250px;
+        height: 125px;
     }
 
     .heading1{
