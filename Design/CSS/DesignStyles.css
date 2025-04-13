@@ -87,6 +87,11 @@ h3 {
     font-size: 15px;
 }
 
+.CurrentDesign li{
+    list-style: none;
+}
+
+
 @media (max-width: 768px) {
     .SideBar {
         position: fixed;
@@ -112,12 +117,12 @@ h3 {
     }
 
     .SideBar ul{
-        padding-top: 20%;
+        padding-top: 10%;
         align-items: center;
     }
 
     .SideBar ul li {
-        padding-bottom: 80%;
+        padding-bottom: 60%;
         font-size: 50%;
     }
 
