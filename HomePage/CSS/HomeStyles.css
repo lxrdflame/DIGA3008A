@@ -11,7 +11,6 @@
     width: 80%;
     border-left: 1px solid #4CC9F0;
     border-right: 1px solid #4CC9F0;
-
     padding: 0 50px;
 
 }
@@ -21,7 +20,7 @@
     display: flex;
     height: 50%;
     width: 80%;
-    padding: 10% 0;
+    
 }
 
 .Alien{
@@ -73,7 +72,7 @@
     }
 
     .About-me{
-        width: 100%;
+        width: 80%;
         height: 30%;
     }
 
