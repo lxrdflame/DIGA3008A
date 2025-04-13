@@ -60,6 +60,15 @@
     gap: 10rem;
 }
 
+.About-me ul li{
+    list-style: none;
+    padding-bottom: 10px;
+}
+
+h2{
+    padding-left: 40px;
+}
+
 
 @media (max-width: 900px) {
 
@@ -71,9 +80,14 @@
         font-size: 60%;
     }
 
+    h2{
+        padding-left: 40px;
+    }
+
     .About-me{
         width: 80%;
         height: 30%;
+        
     }
 
     .introduction{
