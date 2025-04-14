@@ -3,10 +3,11 @@
     padding-bottom: 20px;
     display: flex;
     justify-content: center;
-    gap: 10px;
-    width: 90%;
+    width: 85%;
     padding-top: 100px;
-    border-bottom: 2px solid #4CC9F0;
+    padding-left: 3%;
+    background-color: rgba(0, 0, 0, 0.259);
+    box-shadow: 0px 0px 8px rgb(0, 106, 255);
 
 }
 
@@ -25,26 +26,22 @@
     height: 250px;
 }
 .Sectionsdiv {
-    display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     border-radius: 10px;
 
+    display: flex;
+    flex-direction: column;
+    gap: 10rem;
+
 }
 
-.Sectionsdiv div::-webkit-scrollbar {
-    width: 8px;
-}
 
-.Sectionsdiv div::-webkit-scrollbar-thumb {
-    background: rgb(171, 221, 254);
-    border-radius: 5px;
-}
 
 .SideBar {
     width: 15%;
-    height: 100vh;
+    height: 70vh;
     background-color: rgba(255, 255, 255, 0.079);
     color: #fff;
     padding-top: 20px;
@@ -52,7 +49,6 @@
     top: 80px;
     left: 0;
     box-shadow: 1px 5px 8px rgb(255, 0, 234);
-    z-index: 1000;
 }
 
 .SideBar ul {
@@ -65,7 +61,7 @@
 
 .SideBar ul li {
     list-style: none;
-    padding-bottom: 120px;
+    padding-bottom: 100px;
     font-family: "Press Start 2P", system-ui;
     font-size: 10px;
     text-align: center;
@@ -100,15 +96,14 @@ h3 {
 @media (max-width: 768px) {
     .SideBar {
         position: fixed;
-        height: 100vh;
+        height: 74vh;
         width: 25%;
         box-shadow: none;
         top: 50;
         left: 0;
         padding: 10px 0;
         background-color: rgba(255, 255, 255, 0.079);
-        box-shadow: 1px 5px 8px rgb(255, 0, 234);
-
+        box-shadow: 1px -1px 8px rgb(255, 0, 234);
     }
 
     .images{
@@ -134,11 +129,14 @@ h3 {
    .Sectionsdiv{
         width: 80%;
         margin-right: 0;
-
+        display: flex;
+        flex-direction: column;
+        gap: 10rem;
     }
 
     .Sectionsdiv div {
         padding-top: 90px;
+        padding-left: 10%;
     }
 
     h3 {
