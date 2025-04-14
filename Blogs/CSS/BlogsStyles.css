@@ -26,6 +26,10 @@
     
 }
 
+.Week7 li{
+    padding: 10px;
+}
+
 
 .Blogs div::-webkit-scrollbar{
     width: 8px;
