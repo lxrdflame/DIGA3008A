@@ -91,6 +91,11 @@ h3 {
     list-style: none;
 }
 
+.ColourSectiondiv{
+    font-family: "Exo 2", sans-serif;
+    font-weight: 100px;
+}
+
 
 @media (max-width: 768px) {
     .SideBar {
