@@ -76,18 +76,20 @@ h2{
     .portfolio-container .Game{
         width: 100%;
         font-size: 80%;
+        align-items: center;
     }
 
     .art-covers{
         border-radius: 20px;
         width: 30%;
+        height: 120px;
     
     }
 
     .artwork{
         width: 20%;
-    box-shadow:  0px 0px 15px #0091ff;
-    border:  5px solid #030b3e;
+        box-shadow:  0px 0px 15px #0091ff;
+        border:  5px solid #030b3e;
     }
 }
 
