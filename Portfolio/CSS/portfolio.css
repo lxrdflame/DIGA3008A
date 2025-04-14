@@ -1,0 +1,41 @@
+.portfolio-container{
+    width: 70%;
+    padding-left: 15%;
+    display: flex;
+    flex-direction: column;
+    gap: 10rem;
+    align-items: center;
+
+}
+
+.portfolio-container .Game{
+    width: 70%;
+    border-left:  2px solid #4CC9F0;
+    border-right:  2px solid #4CC9F0;
+    background-color: rgba(43, 1, 37, 0.478);
+    padding: 2%;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    font-family: "Exo 2", sans-serif;
+}
+
+.Game a{
+    text-decoration: none;
+    color: rgb(0, 242, 255);
+}
+
+.Game a:hover{
+    text-decoration:underline;
+}
+
+#right-side{
+
+}
+
+.art-covers{
+    border-radius: 20px;
+}
+
+
+
