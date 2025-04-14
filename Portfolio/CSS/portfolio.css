@@ -87,9 +87,14 @@ h2{
     }
 
     .artwork{
-        width: 20%;
-        box-shadow:  0px 0px 15px #0091ff;
-        border:  5px solid #030b3e;
+        box-shadow:  0px 0px 10px #0091ff;
+        border:  2px solid #030b3e;
+    }
+
+    .Art{
+        padding-left: 1%;
+        width: 100%;
+
     }
 }
 
