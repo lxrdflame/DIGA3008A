@@ -41,8 +41,8 @@ body{
     .WelcomeText{
         text-align: center;
         width: 25ch;
-        font-size: 150%;
-        margin: 15% 25%;
+        font-size: 100%;
+        margin: 50% 10%;
     }
 }
 
