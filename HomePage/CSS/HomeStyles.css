@@ -99,7 +99,8 @@ h2{
 
     .introduction{
         height: 30%;
-        width: 100%;
+        width: 120%;
+        align-items: center;
     }
     
     .About-me div{
