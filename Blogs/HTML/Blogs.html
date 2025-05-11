@@ -17,7 +17,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/a7ac100429.js" crossorigin="anonymous"></script>
-
+    <script src="../Scripts/BlogsScripts.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
@@ -45,13 +45,20 @@
      </header>
 
     <h1>Weekly Blog Posts</h1>
+
      <div class="Blogs">
-        <div class="week1">
-            <article>
-                <h2>Week 1 Blog Post  </h2>
-                <h3>
-                    My experience setting up GitHub and Publishing to Pages.    
-                </h3>
+        <article class="blog-post">
+            <h2>Week 1 Blog Post</h2>
+            <img src="../Images/GitHUb-Banner.jpg" alt="GitHub picture" clas="banner">
+            <div class="blog-content">
+                <div class ="excerpt">
+                    <h3>
+                        My experience setting up GitHub and Publishing to Pages.    
+                        <button class="read-more">Read More</button>
+                    </h3>
+                </div>
+                
+                <div class="full-content" style="display: none;">
                     <p>
                         My experience with setting up GitHub and Publishing to pages was very
                         hard and confusing because it is a bit different from the experience i 
@@ -122,53 +129,75 @@
             
             
                         </p>
-            </article>
-         </div>
+                    <button class="read-less">Read Less</button>
+
+                    </div>
+                   
+                </div>
+        </article>
        
-         <div class="week2">
-            <article>
-                <h2>Week 2 Blog Post  </h2>
+         <article class="blog-post">
+            <h2>Week 2 Blog Post  </h2>
+            <div class="blog-content">
+                <div class="excerpt">
+                    <p>
+                        You Say You Want a Revolution?
+                        Hypertext and the Laws of Media
+                        reflection
+                    </p>
+                    <button class="read-more">Read More</button>
+                </div>
+                <div class="full-content" style="display: none;">
+                    <p>Moulthrop’s idea on hypertext as a radical shift on how we interact with information have played out, but they 
+                        also have unexpected consequences. He talks about how hypertext 
+                        improves navigation and access to relevant information, even though 
+                        he does talk about whether the ease is always beneficial. Hypertext 
+                        helps users navigate through the web using links between relative topics and allows a linear navigation though 
+                        the web. Hypertext user to jump between sources quickly and effectively and discovering more connections between 
+                        pages, this also allows the user to have a personalised information experience instead of relying on fixed and one way
+                         narratives. The negative impact of hyperlinks may be that users may not engage fully into certain sources by jumping 
+                         endlessly through the links and losing the original context.</p>
                 
-                <p>Moulthrop’s idea on hypertext as a radical shift on how we interact with information have played out, but they 
-                    also have unexpected consequences. He talks about how hypertext 
-                    improves navigation and access to relevant information, even though 
-                    he does talk about whether the ease is always beneficial. Hypertext 
-                    helps users navigate through the web using links between relative topics and allows a linear navigation though 
-                    the web. Hypertext user to jump between sources quickly and effectively and discovering more connections between 
-                    pages, this also allows the user to have a personalised information experience instead of relying on fixed and one way
-                     narratives. The negative impact of hyperlinks may be that users may not engage fully into certain sources by jumping 
-                     endlessly through the links and losing the original context.</p>
-            
-                <p>Below is my folder structure and wireframe, this is one of the examples of how hypertext can influence navigation through 
-                    certain sources and pieces of information. The wireframe showcases the freedom and easy access to certain information that
-                     will be provided by my webpage. The lay out shows how users can navigate the whole website from a click of a mouse.
-                    
-                    <img src="../Images/WireFrame.png" alt="Wire Frame " class="images">
-                    <img src ="../Images/Folder Structre (1).png" alt = "Folder Structure 1"  class="images">
-                    <img src ="../Images/Folder Structre (2).png" alt = "Folder Structure 2"  class="images">
-            
-                <br>
-                    The folder structure consists of four folders that represent 4 of my current planned pages and each one is going to have 
-                    four folders in each folder, each one being Images, Styles, Scripts and HTML folders. Each files consists of these folders 
-                    to store the files and make it easier to navigate through the files that are needed in the webpage.
-                </p>
-            
-                <p>My webpage design or wireframe was inspired by my experience with the World wide web. The websites and webpages that I have 
-                    visited were easy to navigate and easy to use. These websites are designed to make the human or use experience easier to use 
-                    and not the other way around where a use has to learn how to use the webpage and navigate through based on what information 
-                    was presented to me, instead it was built so that I can navigate the web based on what I want to engage in. Sometime the 
-                    world wide web can present false information and unnecessary information to the user in the form of an add, sometimes it 
-                    will present a video  and if a user watches the video for more than 10 or more seconds, the web thinks that the user wants 
-                    content like that and ends up presenting more information that’s related to that one video. With all of that, id conclude by 
-                    saying my experience with the WWW has its ups and downs.</p>
-            </article>
-         </div>
+                    <p>Below is my folder structure and wireframe, this is one of the examples of how hypertext can influence navigation through 
+                        certain sources and pieces of information. The wireframe showcases the freedom and easy access to certain information that
+                         will be provided by my webpage. The lay out shows how users can navigate the whole website from a click of a mouse.
+                        
+                        <img src="../Images/WireFrame.png" alt="Wire Frame " class="images">
+                        <img src ="../Images/Folder Structre (1).png" alt = "Folder Structure 1"  class="images">
+                        <img src ="../Images/Folder Structre (2).png" alt = "Folder Structure 2"  class="images">
+                
+                    <br>
+                        The folder structure consists of four folders that represent 4 of my current planned pages and each one is going to have 
+                        four folders in each folder, each one being Images, Styles, Scripts and HTML folders. Each files consists of these folders 
+                        to store the files and make it easier to navigate through the files that are needed in the webpage.
+                    </p>
+                
+                    <p>My webpage design or wireframe was inspired by my experience with the World wide web. The websites and webpages that I have 
+                        visited were easy to navigate and easy to use. These websites are designed to make the human or use experience easier to use 
+                        and not the other way around where a use has to learn how to use the webpage and navigate through based on what information 
+                        was presented to me, instead it was built so that I can navigate the web based on what I want to engage in. Sometime the 
+                        world wide web can present false information and unnecessary information to the user in the form of an add, sometimes it 
+                        will present a video  and if a user watches the video for more than 10 or more seconds, the web thinks that the user wants 
+                        content like that and ends up presenting more information that’s related to that one video. With all of that, id conclude by 
+                        saying my experience with the WWW has its ups and downs.</p>
+                        <button class="read-less">Read Less</button>
+                    </div>
+                </div>
+                
+        </article>
         
     
     
-         <div class="week3">
-            <article>
-                <h2>Week 3 Blog Post </h2>
+        <article class="blog-post">
+            <h2>Week 3 Blog Post  </h2>
+            <div class="blog-content">
+                <div class="excerpt">
+                    <p>
+                        Working through the slides for Interaction Design for the web
+                    </p>
+                    <button class="read-more">Read More</button>
+                </div>
+                <div class="full-content" style="display: none;">
             
                 <h3>ME</h3>
             
@@ -234,13 +263,21 @@
                     <b>Reflection</b>
                         <br>
                         The exercise above helped me think more about the reason why im making the website and how I want the website to function not only when I use it but think about how the audience should feel when using and interacting with the website. The exercise helps me plan out the website deeper into what and how it should function and how the aesthetics of the website should show. I have thought deeper about the type of planning have to go through in order to get the type of website I have instead of just throwing stuff in the website and expecting the user to just interact with all the elements.
-            </article>
-         </div>
+                        <button class="read-less">Read Less</button>
+                    </div>
+                    </div>
+        </article>
            
-         <div class="week4">
-            <article>
-                <h2>Week 4 Blog Post</h2>
-            
+        <article class="blog-post">
+            <h2>Week 4 Blog Post  </h2>
+            <div class="blog-content">
+                <div class="excerpt">
+                    <p>
+                        Design Section Work And IxD Process
+                    </p>
+                    <button class="read-more">Read More</button>
+                </div>
+                <div class="full-content" style="display: none;">
                 Website 1 was kind of hard and confusing, it was confusing most of the time since it is not very clear what is needed and what is not. It got really hard to make 
                 sure that you are getting the right things done and also making sure that you do not overdo anything. It is sometimes hard to think about the colour 
                 palettes i want to choose because things may seem like they would look good in my head but as soon as i impliment the colours on a design, it does not look as good as 
@@ -261,14 +298,22 @@
                     For the <a href="../../Design/HTML/Design.html#Visuals">Visual Designs</a> i Have Chosen to use the shades of Nude/Brown Colour palette, which can be seen in the Design Page.
             
             
+                    </div>
+                    </div>
             </article>
-         </div>
+         
 
-         <div class="Week7">
-            
-    
-            <article>
-                <h2>Week 7 Blog Post</h2>
+            <article class="blog-post">
+                <h2>Week 7 Blog Post  </h2>
+                <div class="blog-content">
+                    <div class="excerpt">
+                        <p>
+                            Website Analysis
+                        </p>
+                        <button class="read-more">Read More</button>
+                    </div>
+                    <div class="full-content" style="display: none;">
+                
                 <a href="https://www.news24.com/">News24</a>  as an example. News24 is one of South Africa’s leading independent news websites, 
                 known for its broad coverage of local and international news. Below are some potential pros and cons for this website:
 
@@ -327,11 +372,9 @@
 
                     <p>This assessment is based on a general analysis of its features and user experiences; personal preferences and needs might lead to different evaluations for different readers.</p>
 
+                    </div>
+                    </div>
             </article>
-                
-    
-    
-         </div>
      </div>
 
      
