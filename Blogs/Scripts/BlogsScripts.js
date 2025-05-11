@@ -35,6 +35,7 @@ document.addEventListener('DOMContentLoaded', function() {
           post.style.height = '90%'; // Or your desired expanded width
           post.style.maxHeight = '1300px'; // Optional max width
           post.style.margin = '20px auto'; // Center the expanded post
+          post.style.transition = 'width 0.3s ease'; // Smooth animation
         } else {
             // Collapse - return to original
             excerpt.style.display = 'block';
