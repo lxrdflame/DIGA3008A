@@ -24,7 +24,8 @@ html{
 }
 
 #Button-div{
-    padding-top: 36%;
+    top: 80%;
+    left: 80%;
     position: fixed;
     font-size: 12px;
     transform: skew(-20deg);
