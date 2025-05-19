@@ -19,6 +19,29 @@ nav ul{
     
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
+#Button-div{
+    padding-top: 36%;
+    position: fixed;
+    font-size: 12px;
+    transform: skew(-20deg);
+    margin-left: 120px;
+    filter: drop-shadow(0px 0px 5px rgb(255, 0, 234));
+}
+
+#Button-div button{
+    background-color: #00fff27e;
+    width: 120px;
+    height: 40px;
+    cursor: pointer;
+    color: white;
+    font-family: "Press Start 2P", system-ui;
+    font-size: 10px;
+
+}
 .NavList li{
     display: inline-block;
     font-size: 10px;

@@ -28,6 +28,6 @@ function CloseSideBar()
 
 // Attach the function to the button's click event
 ShowSideBarBtn.addEventListener('click', printShit);
-window.addEventListener('scroll', CloseSideBar)
+window.addEventListener('scroll', CloseSideBar);
 
 });
