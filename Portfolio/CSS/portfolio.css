@@ -42,12 +42,13 @@ h2{
 }
 
 .artwork{
-    width: 30%;
+    width: 40%;
     box-shadow:  0px 0px 15px #0091ff;
     border:  5px solid #030b3e;
 
 
 }
+
 
 .Art{
 
@@ -55,10 +56,27 @@ h2{
     border-right:  2px solid #4CC9F0;
     align-items: center;
     width: 100%;
-    padding-left: 7%;
+    padding-left: 4%;
+    display: flex;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+
 
 }
 
+#left-button{
+    position: absolute;
+    left: 10%;
+    top: 350%;
+    
+}
+
+#right-button{
+    position: absolute;
+    top: 350%;
+    right: 10%;
+
+}
 
 
 @media (max-width: 800px) {
