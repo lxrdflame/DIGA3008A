@@ -35,7 +35,7 @@ document.addEventListener('DOMContentLoaded', function() {
   function scrollleft()
   {
     GalarySection.scrollTo({
-      right: GalarySection.scrollLeft + 400,
+      left: GalarySection.scrollRight + 400,
     })
   }
 
