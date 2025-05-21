@@ -16,10 +16,9 @@ document.addEventListener('DOMContentLoaded', function() {
         // Div is out of view
         previousbuttondiv.style.display = 'none';
         nextbuttondiv.style.display = 'none';
-        console.log("0000000")
       }
     });
-  }, { threshold: 0.6 }); // Trigger when 50% of the div is visible
+  }, { threshold: 0.85 }); // Trigger when 50% of the div is visible
 
   // Start observing the target div
   observer.observe(GalarySection);

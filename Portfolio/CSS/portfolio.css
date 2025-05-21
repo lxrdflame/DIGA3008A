@@ -60,21 +60,57 @@ h2{
     display: flex;
     overflow-x: scroll;
     scroll-behavior: smooth;
+    background-color: #014a5226;
+}
 
-
+.Art::-webkit-scrollbar{
+    display: none;
 }
 
 #left-button{
     position: absolute;
-    left: 10%;
-    top: 350%;
+    left: 5%;
+    top: 330%;
     
 }
 
 #right-button{
     position: absolute;
-    top: 350%;
-    right: 10%;
+    top: 330%;
+    right: 5%;
+
+}
+
+.right{
+    padding-top: 200px;
+    padding-bottom: 200px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #0091ff27;
+    color: WHITE;
+    font-size: 50PX;
+    font-family: "Press Start 2P", system-ui;
+
+}
+
+.left{
+    padding-top: 200px;
+    padding-bottom: 200px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #0091ff27;
+    color: WHITE;
+    font-size: 50PX;
+    font-family: "Press Start 2P", system-ui;
+
+}
+
+.left:hover{
+    box-shadow: 0px 0px 10px rgb(255, 0, 234);
+
+}
+.right:hover{
+    box-shadow: 0px 0px 10px rgb(255, 0, 234);
 
 }
 
