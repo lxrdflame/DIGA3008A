@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', function() {
           post.style.transition = 'width 0.01s ease'; // Smooth animation
 
           post.style.height = '90%'; // Or your desired expanded width
-          post.style.maxHeight = '1300px'; // Optional max width
+          post.style.maxHeight = '100%'; // Optional max width
           post.style.margin = '20px auto'; // Center the expanded post
         } else {
             // Collapse - return to original

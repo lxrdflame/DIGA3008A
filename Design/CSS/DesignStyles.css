@@ -118,11 +118,9 @@ h3 {
         height: 74vh;
         width: 25%;
         box-shadow: none;
-        top: 50;
-        left: 0;
+        top: 9.5%;
+        left: -23%;
         padding: 10px 0;
-        background-color: rgba(255, 255, 255, 0.079);
-        box-shadow: 1px -1px 8px rgb(255, 0, 234);
     }
 
     .images{
@@ -135,6 +133,7 @@ h3 {
     .SideBar ul{
         padding-top: 10%;
         align-items: center;
+        
     }
 
     .SideBar ul li {
@@ -153,6 +152,7 @@ h3 {
     .Sectionsdiv div {
         padding-top: 90px;
         padding-left: 10%;
+        width: 100%;
     }
 
     h3 {
