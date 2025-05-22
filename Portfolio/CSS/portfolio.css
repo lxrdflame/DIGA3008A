@@ -60,7 +60,7 @@ h2{
     display: flex;
     overflow-x: scroll;
     scroll-behavior: smooth;
-    background-color: #014a5226;
+    background-color: #52015126;
 }
 
 .Art::-webkit-scrollbar{
@@ -86,7 +86,7 @@ h2{
     padding-bottom: 200px;
     padding-left: 30px;
     padding-right: 30px;
-    background-color: #0091ff27;
+    background-color: #46004b86;
     color: WHITE;
     font-size: 50PX;
     font-family: "Press Start 2P", system-ui;
@@ -98,7 +98,7 @@ h2{
     padding-bottom: 200px;
     padding-left: 30px;
     padding-right: 30px;
-    background-color: #0091ff27;
+    background-color: #46004b86;
     color: WHITE;
     font-size: 50PX;
     font-family: "Press Start 2P", system-ui;
@@ -106,11 +106,11 @@ h2{
 }
 
 .left:hover{
-    box-shadow: 0px 0px 10px rgb(255, 0, 234);
+    box-shadow: 0px 0px 10px rgb(0, 195, 255);
 
 }
 .right:hover{
-    box-shadow: 0px 0px 10px rgb(255, 0, 234);
+    box-shadow: 0px 0px 10px rgb(0, 195, 255);
 
 }
 
