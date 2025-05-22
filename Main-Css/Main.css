@@ -6,8 +6,9 @@ nav {
     top: 0;
     width: 100%;
     height: 80px;
-    box-shadow: 0px 2px 20px rgb(255, 0, 234);
+    box-shadow: 0px 2px 20px rgb(0, 170, 255);
     position: fixed;
+    
 }
 
 nav ul{
@@ -18,6 +19,7 @@ nav ul{
     display: flex;
     
 }
+
 
 html{
     scroll-behavior: smooth;
@@ -46,9 +48,9 @@ html{
 .NavList li{
     display: inline-block;
     font-size: 10px;
-    transform: skew(-40deg);
     font-family: "Press Start 2P", system-ui;
-    padding-top: 10px;
+    padding: 5px;
+
 }
 
 
@@ -56,17 +58,35 @@ html{
     color: #ffffff;
     text-decoration: none;
     padding: 10px;
-    
-
+    background-color: rgba(0, 170, 255, 0.251);
+    clip-path: polygon(
+        15% 0,    /* Top-left cut */
+        100% 0,   /* Top-right (normal) */
+        100% 30%, /* No effect (redundant) */
+        100% 70%, /* No effect (redundant) */
+        85% 100%, /* Bottom-right cut */
+        0 100%,   /* Bottom-left (normal) */
+        0 100%,   /* Redundant */
+        0 30%     /* No effect */
+);
 }
 
 .NavList li a:hover{
-    font-size: 10px;
-    font-family: "Press Start 2P", system-ui;
-    color: rgba(255, 255, 255, 0.511);
-    background-color: rgba(0, 0, 0, 0);
-    width: 15%;
-    box-shadow:  2px 2px 2px rgb(0, 140, 255);
+    color: #7373737e;
+    text-decoration: none;
+    padding: 10px;
+    background-color: rgba(2, 44, 54, 0.486);
+    clip-path: polygon(
+        15% 0,    /* Top-left cut */
+        100% 0,   /* Top-right (normal) */
+        100% 30%, /* No effect (redundant) */
+        100% 70%, /* No effect (redundant) */
+        85% 100%, /* Bottom-right cut */
+        0 100%,   /* Bottom-left (normal) */
+        0 100%,   /* Redundant */
+        0 30%     /* No effect */
+);
+
 
 }
 
@@ -80,12 +100,21 @@ html{
 
 
 
-a.CurrentPage {
-    font-size: 10px;
-    font-family: "Press Start 2P", system-ui;
-    color: rgba(255, 255, 255, 0.504);
-    background-color: rgba(0, 0, 0, 0);
-    box-shadow:  2px 2px 2px rgb(0, 140, 255);
+.CurrentPage {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px;
+    padding: 20%;
+    clip-path: polygon(
+        15% 0,    /* Top-left cut */
+        100% 0,   /* Top-right (normal) */
+        100% 30%, /* No effect (redundant) */
+        100% 70%, /* No effect (redundant) */
+        85% 100%, /* Bottom-right cut */
+        0 100%,   /* Bottom-left (normal) */
+        0 100%,   /* Redundant */
+        0 30%     /* No effect */
+);
 }
 
 body {
@@ -180,6 +209,7 @@ footer{
         display: block;
         right: -120%;
         z-index: 10;
+        
     }
 
     body{
