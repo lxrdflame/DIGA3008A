@@ -52,3 +52,9 @@
 .view-pdf-paragraph a:hover {
   color: rgb(119, 119, 119);
 }
+
+@media (max-width: 768px) {
+  .essays-container section {
+    width: 40%;
+  }
+}
