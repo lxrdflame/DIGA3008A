@@ -56,11 +56,12 @@
 @media (max-width: 768px) {
   .essays-container section {
     width: 50%;
+    height: 100%;
   }
 
   .essays-container {
   width: 100%;
   justify-content: center;
-
+    
   }
 }
