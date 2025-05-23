@@ -1,87 +1,79 @@
-.Blogs article{
-    width: 250px;
-    display: flex;
-    justify-content: space-between;
-    border: 2px solid #4CC9F0;
-    border-radius: 10px;
-    height: 330px;
-    background-color: rgba(14, 1, 14, 0.696);
+.Blogs article {
+  width: 250px;
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid #4cc9f0;
+  border-radius: 10px;
+  height: 330px;
+  background-color: rgba(14, 1, 14, 0.696);
 }
 
-.full-content{
-    padding: 30px;
+.full-content {
+  padding: 30px;
 }
 
-.banner{
-    width: 248px;
-    border: 2px solid #4CC9F0;
-    border-radius: 10px 10px 0px 0px;
-    height: 150px;
+.banner {
+  width: 248px;
+  border: 2px solid #4cc9f0;
+  border-radius: 10px 10px 0px 0px;
+  height: 150px;
 }
 
-.blog-content div{
-    padding-bottom: 5px;
-    gap: 20px;
+.blog-content div {
+  padding-bottom: 5px;
+  gap: 20px;
 }
 
-.excerpt{
-    background: #00acb94a;
-    border-radius: 10px;
-    height: 99%;
+.excerpt {
+  background: #00acb94a;
+  border-radius: 10px;
+  height: 99%;
 }
 
-h3{
-    text-align: left;
-    font-family: "Exo 2", sans-serif;
-    font-size: 15px;
-    padding-left: 10px;
-    font-weight: lighter;
+h3 {
+  text-align: left;
+  font-family: "Exo 2", sans-serif;
+  font-size: 15px;
+  padding-left: 10px;
+  font-weight: lighter;
 }
-.Blogs{
-    display: flex;
-    gap: 30px;
-    flex-wrap: wrap;
-    justify-content: center;
-    font-family: "Exo 2", sans-serif;
-}
-
-
-
-.Week7 li{
-    padding: 10px;
+.Blogs {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-family: "Exo 2", sans-serif;
 }
 
-h2{
-    text-align: left;
-    font-family: "Exo 2", sans-serif;
-    font-size: 20px;
-    padding-left: 10px;
+.Week7 li {
+  padding: 10px;
 }
 
-.images{
-    width: 300px;
+h2 {
+  text-align: left;
+  font-family: "Exo 2", sans-serif;
+  font-size: 20px;
+  padding-left: 10px;
 }
 
-.read-more, .read-less {
-    background: #ffffff22;
-    color: white;
-    border: none;
-    padding: 0.5rem 1rem;
-    cursor: pointer;
-    font-size: 12px;
-    transform: skew(-20deg);
-    margin-left: 120px;
-  }
+.images {
+  width: 300px;
+}
 
-
-
+.read-more,
+.read-less {
+  background: #ffffff22;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  font-size: 12px;
+  transform: skew(-20deg);
+  margin-left: 120px;
+}
 
 @media (max-width: 768px) {
-    .Blogs{
-        gap: 100px;
-
-    }
-
+  .Blogs {
+    gap: 100px;
+  }
 }
-
-
