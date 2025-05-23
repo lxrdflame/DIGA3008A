@@ -42,10 +42,14 @@ h2{
 }
 
 .artwork{
-    width: 40%;
-    box-shadow:  0px 0px 15px #0091ff;
+    width: 360px;
     border:  5px solid #030b3e;
 
+
+}
+
+.artwork:hover{
+    box-shadow:  0px 0px 15px #00c8ff;
 
 }
 
