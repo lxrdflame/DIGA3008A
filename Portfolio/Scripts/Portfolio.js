@@ -105,4 +105,51 @@ document.addEventListener("DOMContentLoaded", function () {
 
   previousbutton.addEventListener("click", scrollleft);
   nextbutton.addEventListener("click", scrollright);
+
+
+  const RandomGameGenerator = document.getElementById('random-game-generator')
+
+  const API_KEY = 'be0c66c2ecc04dc0b9e1109a6af9938d'; // Replace with your RAWG API key
+const GAMES_LIST = document.getElementById('games-list');
+
+async function fetchRandomGame() {
+  try {
+    // Step 1: Fetch total number of games available
+    const countResponse = await fetch(
+      `https://api.rawg.io/api/games?key=${API_KEY}&page_size=1`
+    );
+    const countData = await countResponse.json();
+    const totalGames = countData.count; // Total games in RAWG DB (e.g., 500,000+)
+
+    // Step 2: Pick a random page (1-100 max, since RAWG limits pages)
+    const randomPage = Math.floor(Math.random() * 100) + 1;
+
+    // Step 3: Fetch a single random game from the random page
+    const gameResponse = await fetch(
+      `https://api.rawg.io/api/games?key=${API_KEY}&page=${randomPage}&page_size=1`
+    );
+    const gameData = await gameResponse.json();
+    displayRandomGame(gameData.results[0]); // Pass the first (and only) game
+
+  } catch (error) {
+    console.error("Error fetching random game:", error);
+    GAMES_LIST.innerHTML = `<p>Failed to load game. Try refreshing!</p>`;
+  }
+}
+
+function displayRandomGame(game) {
+  GAMES_LIST.innerHTML = `
+    <div class="game-card">
+      <img src="${game.background_image || 'https://via.placeholder.com/400x225?text=No+Image'}" alt="${game.name}">
+      <div class="game-info">
+        <h3>${game.name}</h3>
+        <p>⭐ ${game.rating || 'N/A'}/5 (${game.reviews_count || 0} reviews)</p>
+        <p>Released: ${game.released || 'Unknown'}</p>
+       
+      </div>
+    </div>
+  `;
+}
+
+RandomGameGenerator.addEventListener('click', fetchRandomGame);
 });

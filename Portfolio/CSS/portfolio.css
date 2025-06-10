@@ -104,6 +104,47 @@ h2 {
   box-shadow: 0px 0px 10px rgb(0, 195, 255);
 }
 
+.game-randomizer-div{
+  box-shadow: 0px 0px 10px rgb(0, 195, 255);
+  height: 50px;
+  font-size: 200%;
+  text-align: center;
+  padding: 1%;
+}
+
+.game-randomizer-div:hover{
+  box-shadow: 0px 0px 10px rgb(255, 0, 208);
+
+}
+.game-card {
+  border: 1px solid #333;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.3s;
+}
+
+.random-games-container{
+  align-items: center;
+  display: flexbox;
+  width: 30%;
+}
+
+.game-card:hover {
+  transform: scale(1.03);
+}
+
+.game-card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+
+
+.game-info {
+  padding: 10px;
+}
+
 @media (max-width: 800px) {
   .portfolio-container {
     width: 90%;

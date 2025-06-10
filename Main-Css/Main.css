@@ -10,6 +10,10 @@ nav {
   position: fixed;
 }
 
+.back-to-top{
+  width: 30%;
+}
+
 nav ul {
   float: right;
   list-style: none;
@@ -26,20 +30,13 @@ html {
   top: 80%;
   left: 80%;
   position: fixed;
-  font-size: 12px;
-  transform: skew(-20deg);
   margin-left: 120px;
   filter: drop-shadow(0px 0px 5px rgb(0, 195, 255));
+  display: none;
 }
 
-#Button-div button {
-  background-color: #004071f0;
-  width: 120px;
-  height: 40px;
-  cursor: pointer;
-  color: white;
-  font-family: "Press Start 2P", system-ui;
-  font-size: 10px;
+#Button-div :hover {
+ cursor: pointer;
 }
 .NavList li {
   display: inline-block;
