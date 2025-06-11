@@ -10,8 +10,16 @@ nav {
   position: fixed;
 }
 
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
 .back-to-top{
   width: 30%;
+  
 }
 
 nav ul {
@@ -33,6 +41,8 @@ html {
   margin-left: 120px;
   filter: drop-shadow(0px 0px 5px rgb(0, 195, 255));
   display: none;
+  z-index: 1000;
+
 }
 
 #Button-div :hover {
@@ -84,12 +94,12 @@ html {
 }
 
 body {
-  background-image: url("../Design/Images/WallPaper.jpeg");
+  /*background-image: url("../Design/Images/WallPaper.jpeg");*/
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-color: #000;
+  background-color: #252024;
   margin: 0;
   color: #ffffff;
   height: 100vh;
@@ -128,6 +138,7 @@ h1 {
 footer {
   background-color: #1d1c1c;
   bottom: 0;
+  z-index: 1000;
 }
 
 .contact {
