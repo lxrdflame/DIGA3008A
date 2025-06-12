@@ -109,22 +109,19 @@ document.addEventListener("DOMContentLoaded", function () {
 
   const RandomGameGenerator = document.getElementById('random-game-generator')
 
-  const API_KEY = 'be0c66c2ecc04dc0b9e1109a6af9938d'; // Replace with your RAWG API key
+  const API_KEY = 'be0c66c2ecc04dc0b9e1109a6af9938d'; 
 const GAMES_LIST = document.getElementById('games-list');
 
 async function fetchRandomGame() {
   try {
-    // Step 1: Fetch total number of games available
     const countResponse = await fetch(
       `https://api.rawg.io/api/games?key=${API_KEY}&page_size=1`
     );
     const countData = await countResponse.json();
     const totalGames = countData.count; // Total games in RAWG DB (e.g., 500,000+)
 
-    // Step 2: Pick a random page (1-100 max, since RAWG limits pages)
     const randomPage = Math.floor(Math.random() * 100) + 1;
 
-    // Step 3: Fetch a single random game from the random page
     const gameResponse = await fetch(
       `https://api.rawg.io/api/games?key=${API_KEY}&page=${randomPage}&page_size=1`
     );
