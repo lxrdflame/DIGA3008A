@@ -7,6 +7,8 @@
   padding-left: 3%;
   background-color: rgba(0, 0, 0, 0.259);
   box-shadow: 0px 0px 8px rgb(0, 106, 255);
+  z-index: 100;
+
 }
 
 .heading1 {
@@ -40,6 +42,7 @@
   display: flex;
   transition: all 1s;
   left: -210px;
+  z-index: 1000;
 }
 
 .SideBar ul {
@@ -50,8 +53,9 @@
   align-items: center;
   box-shadow: 1px 5px 8px rgb(0, 208, 255);
   width: 120%;
-  background-color: rgba(21, 0, 16, 0.662);
+  background-color: rgb(21, 0, 16);
   padding-top: 50px;
+  height: 100VH;
 }
 
 .SideBar ul li {

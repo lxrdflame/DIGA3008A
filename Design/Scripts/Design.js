@@ -14,9 +14,13 @@ document.addEventListener("DOMContentLoaded", function () {
         if (!isMoved) {
           sideBar.style.left = "0px"; // Move right
           isMoved = true;
+          ShowSideBarBtn.classList.remove('fa-bars');
+          ShowSideBarBtn.classList.add('fa-xmark');
         } else {
           sideBar.style.left = "-14%"; // Return to start
           isMoved = false;
+          ShowSideBarBtn.classList.remove("fa-xmark");
+          ShowSideBarBtn.classList.add("fa-bars");
         }
       }
     } else if (viewportWidth < 768) {
