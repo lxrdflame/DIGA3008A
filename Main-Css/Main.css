@@ -196,6 +196,7 @@ footer {
 
   .nav-Button {
     display: block;
+    padding-top: 20px;
   }
 
   #check:checked ~ ul {
@@ -210,7 +211,6 @@ footer {
   display: none;
 }
 
-/* When checkbox is checked, show the X and hide the bars */
 #check:checked ~ .nav-Button .fa-bars {
   display: none;
 }
@@ -218,6 +218,9 @@ footer {
 #check:checked ~ .nav-Button .fa-xmark {
   display: block;
 }
+
+
+
   header {
     position: sticky;
     top: 0;
