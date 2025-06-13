@@ -7,16 +7,15 @@
 
 .All-Essays {
   display: flex;
-  width: 80%;
+  gap: 30px;
+  flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
-  gap: 2rem;
-  align-self: center;
+  font-family: "Exo 2", sans-serif;
 }
 
 
 .essays-container {
-  width: 25%;
+  width: 18%;
   display: flex;
   gap: 30px;
   flex-wrap: wrap;
