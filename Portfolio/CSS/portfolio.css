@@ -180,9 +180,6 @@ h2 {
   height: 10%;
 }
 
-.random-games-container div{
-}
-
 .games-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
