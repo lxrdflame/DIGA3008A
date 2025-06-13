@@ -202,6 +202,22 @@ footer {
     right: 0;
   }
 
+  .nav-Button .fa-bars {
+  display: block;
+}
+
+.nav-Button .fa-xmark {
+  display: none;
+}
+
+/* When checkbox is checked, show the X and hide the bars */
+#check:checked ~ .nav-Button .fa-bars {
+  display: none;
+}
+
+#check:checked ~ .nav-Button .fa-xmark {
+  display: block;
+}
   header {
     position: sticky;
     top: 0;
